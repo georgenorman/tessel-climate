@@ -1,6 +1,6 @@
 {
   "name": "tessel-climate",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "description": "test the climate module",
   "main": "app/app.js",
   "scripts": {
@@ -8,7 +8,12 @@
   },
   "author": {
     "name": "George Norman",
-    "url": "http://www.thruzero.com/"
+    "url": "https://github.com/georgenorman?tab=repositories"
+  },
+  "homepage": "https://github.com/georgenorman/tessel-climate",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/georgenorman/tessel-climate.git"
   },
   "license": {
     "type": "Apache License, Version 2.0",
@@ -16,6 +21,6 @@
   },
   "dependencies": {
     "climate-si7020": "^0.1.1",
-    "tessel-kit": "0.0.1"
+    "tessel-kit": "0.0.3"
   }
 }
